@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact/Support - Modern Matrimony</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="profile-listing.html">Profiles</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-form">
+            <h1>Contact/Support</h1>
+            <form action="contact.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <p>Email: support@modernmatrimony.com</p>
+            <p>Phone: +1 234 567 890</p>
+            <p>Address: 123 Matrimony Lane, Love City, LC 12345</p>
+        </section>
+
+        <section class="faq">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <h3>How do I register?</h3>
+                <p>To register, click on the "Register" link in the navigation menu and fill out the registration form.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How do I reset my password?</h3>
+                <p>If you have forgotten your password, click on the "Login" link in the navigation menu and then click on the "Forgot Password" link to reset your password.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How do I contact support?</h3>
+                <p>You can contact support by filling out the contact form on this page or by emailing us at support@modernmatrimony.com.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact us: info@modernmatrimony.com</p>
+        <p>Follow us on social media:</p>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
