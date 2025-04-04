@@ -1,0 +1,535 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-color: #e0f7fa;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 10px 0 0;
+}
+
+/* Featured Profiles Styles */
+.featured-profiles {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.featured-profiles h2 {
+    font-size: 2em;
+    margin: 0 0 20px;
+}
+
+.featured-profiles .profile {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    text-align: left;
+}
+
+.featured-profiles .profile img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.featured-profiles .profile p {
+    margin: 5px 0;
+}
+
+/* Statistics Section Styles */
+.statistics {
+    background-color: #e0f7fa;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.statistics h2 {
+    font-size: 2em;
+    margin: 0 0 20px;
+}
+
+.statistics p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #ffffff;
+    border-top: 1px solid #e0e0e0;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    margin: 0 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Registration Form Styles */
+.registration-form {
+    background-color: #ffffff;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+.registration-form h1 {
+    font-size: 2em;
+    margin: 0 0 20px;
+}
+
+.registration-form form fieldset {
+    border: none;
+    margin: 0 0 20px;
+    padding: 0;
+}
+
+.registration-form form fieldset legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+.registration-form form label {
+    display: block;
+    margin: 0 0 5px;
+}
+
+.registration-form form input,
+.registration-form form select,
+.registration-form form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 0 0 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+.registration-form form button {
+    background-color: #00796b;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.registration-form form button:hover {
+    background-color: #004d40;
+}
+
+/* Login Form Styles */
+.login-form {
+    background-color: #ffffff;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+.login-form h1 {
+    font-size: 2em;
+    margin: 0 0 20px;
+}
+
+.login-form form label {
+    display: block;
+    margin: 0 0 5px;
+}
+
+.login-form form input {
+    width: 100%;
+    padding: 10px;
+    margin: 0 0 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+.login-form form button {
+    background-color: #00796b;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.login-form form button:hover {
+    background-color: #004d40;
+}
+
+/* Profile Creation Form Styles */
+.profile-creation-form {
+    background-color: #ffffff;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+.profile-creation-form h1 {
+    font-size: 2em;
+    margin: 0 0 20px;
+}
+
+.profile-creation-form form fieldset {
+    border: none;
+    margin: 0 0 20px;
+    padding: 0;
+}
+
+.profile-creation-form form fieldset legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+.profile-creation-form form label {
+    display: block;
+    margin: 0 0 5px;
+}
+
+.profile-creation-form form input,
+.profile-creation-form form select,
+.profile-creation-form form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 0 0 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+.profile-creation-form form button {
+    background-color: #00796b;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.profile-creation-form form button:hover {
+    background-color: #004d40;
+}
+
+/* Profile Listing Styles */
+.profile-listing {
+    background-color: #ffffff;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+.profile-listing h1 {
+    font-size: 2em;
+    margin: 0 0 20px;
+}
+
+.profile-listing .profile {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    text-align: left;
+}
+
+.profile-listing .profile img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.profile-listing .profile p {
+    margin: 5px 0;
+}
+
+.profile-listing .profile button {
+    background-color: #00796b;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.profile-listing .profile button:hover {
+    background-color: #004d40;
+}
+
+/* Profile Detail Styles */
+.profile-detail {
+    background-color: #ffffff;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+.profile-detail h1 {
+    font-size: 2em;
+    margin: 0 0 20px;
+}
+
+.profile-detail .profile-info {
+    margin: 0 0 20px;
+}
+
+.profile-detail .profile-info p {
+    margin: 5px 0;
+}
+
+.profile-detail .interest-expressing,
+.profile-detail .secure-messaging,
+.profile-detail .notification-center {
+    margin: 20px 0;
+}
+
+.profile-detail .interest-expressing button,
+.profile-detail .secure-messaging button,
+.profile-detail .notification-center button {
+    background-color: #00796b;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.profile-detail .interest-expressing button:hover,
+.profile-detail .secure-messaging button:hover,
+.profile-detail .notification-center button:hover {
+    background-color: #004d40;
+}
+
+/* Dashboard Styles */
+.dashboard {
+    background-color: #ffffff;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+.dashboard h1 {
+    font-size: 2em;
+    margin: 0 0 20px;
+}
+
+.dashboard .user-management,
+.dashboard .profile-verification,
+.dashboard .report-management,
+.dashboard .analytics {
+    margin: 20px 0;
+}
+
+.dashboard .user-management button,
+.dashboard .profile-verification button,
+.dashboard .report-management button,
+.dashboard .analytics button {
+    background-color: #00796b;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.dashboard .user-management button:hover,
+.dashboard .profile-verification button:hover,
+.dashboard .report-management button:hover,
+.dashboard .analytics button:hover {
+    background-color: #004d40;
+}
+
+/* Contact/Support Page Styles */
+.contact-support {
+    background-color: #ffffff;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+.contact-support h1 {
+    font-size: 2em;
+    margin: 0 0 20px;
+}
+
+.contact-support form label {
+    display: block;
+    margin: 0 0 5px;
+}
+
+.contact-support form input,
+.contact-support form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 0 0 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+.contact-support form button {
+    background-color: #00796b;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.contact-support form button:hover {
+    background-color: #004d40;
+}
+
+/* Dark/Light Mode Toggle Styles */
+body.dark-mode {
+    background-color: #333;
+    color: #f7f7f7;
+}
+
+body.dark-mode header,
+body.dark-mode footer,
+body.dark-mode .registration-form,
+body.dark-mode .login-form,
+body.dark-mode .profile-creation-form,
+body.dark-mode .profile-listing,
+body.dark-mode .profile-detail,
+body.dark-mode .dashboard,
+body.dark-mode .contact-support {
+    background-color: #444;
+    border-color: #555;
+}
+
+body.dark-mode header nav ul li a,
+body.dark-mode footer ul li a {
+    color: #f7f7f7;
+}
+
+body.dark-mode .registration-form form input,
+body.dark-mode .registration-form form select,
+body.dark-mode .registration-form form textarea,
+body.dark-mode .login-form form input,
+body.dark-mode .profile-creation-form form input,
+body.dark-mode .profile-creation-form form select,
+body.dark-mode .profile-creation-form form textarea,
+body.dark-mode .profile-listing .profile button,
+body.dark-mode .profile-detail .interest-expressing button,
+body.dark-mode .profile-detail .secure-messaging button,
+body.dark-mode .profile-detail .notification-center button,
+body.dark-mode .dashboard .user-management button,
+body.dark-mode .dashboard .profile-verification button,
+body.dark-mode .dashboard .report-management button,
+body.dark-mode .dashboard .analytics button,
+body.dark-mode .contact-support form input,
+body.dark-mode .contact-support form textarea {
+    background-color: #555;
+    border-color: #666;
+    color: #f7f7f7;
+}
+
+body.dark-mode .registration-form form button,
+body.dark-mode .login-form form button,
+body.dark-mode .profile-creation-form form button,
+body.dark-mode .profile-listing .profile button,
+body.dark-mode .profile-detail .interest-expressing button,
+body.dark-mode .profile-detail .secure-messaging button,
+body.dark-mode .profile-detail .notification-center button,
+body.dark-mode .dashboard .user-management button,
+body.dark-mode .dashboard .profile-verification button,
+body.dark-mode .dashboard .report-management button,
+body.dark-mode .dashboard .analytics button,
+body.dark-mode .contact-support form button {
+    background-color: #00796b;
+    color: #ffffff;
+}
+
+body.dark-mode .registration-form form button:hover,
+body.dark-mode .login-form form button:hover,
+body.dark-mode .profile-creation-form form button:hover,
+body.dark-mode .profile-listing .profile button:hover,
+body.dark-mode .profile-detail .interest-expressing button:hover,
+body.dark-mode .profile-detail .secure-messaging button:hover,
+body.dark-mode .profile-detail .notification-center button:hover,
+body.dark-mode .dashboard .user-management button:hover,
+body.dark-mode .dashboard .profile-verification button:hover,
+body.dark-mode .dashboard .report-management button:hover,
+body.dark-mode .dashboard .analytics button:hover,
+body.dark-mode .contact-support form button:hover {
+    background-color: #004d40;
+}
